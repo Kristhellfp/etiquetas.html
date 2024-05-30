@@ -1,3 +1,3 @@
 let seccion2_DOM = document.querySelector(".seccion2");
 
-seccion2_DOM.innerHTML ="Hola soy Sección 1";
+seccion2_DOM.innerHTML ="Hola soy Sección 2";
