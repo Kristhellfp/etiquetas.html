@@ -1,3 +1,3 @@
 let footer_DOM = document.querySelector(".footer");
 
-footer_DOM.innerHTML ="Hola soy Footer";
+footer_DOM.innerHTML =' <footer><img src="https://static.wixstatic.com/media/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png/v1/fit/w_2500,h_1330,al_c/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png" alt="Logo"><div><a href="https://github.com/Kristhellfp" a>klfpaz</a> <br><a href="https://github.com/Aandreeemele" a>aamelendez</a> <br><a href="https://github.com/SantiagoEmilio" a>slopez</a> <br><a href="https://github.com/Rockemma" a>rockemma</a></div></footer>';
