@@ -1,12 +1,6 @@
-.seccion2{
-    width: 44.9rem;
-    height: 15rem;
-    border: 1px solid black;
-    margin: auto;
-}
 body {
     font-family: Arial, sans-serif;
-    margin: 40px;
+    margin: auto; /* Reduce the margin for smaller screens */
     background-color: #f5f5f5;
 }
 
@@ -15,14 +9,23 @@ h1 {
     color: #333;
 }
 
-.table2 {
-    width: 44.9rem;
+.seccion2 {
+    width: 100%; /* Ajuste a 100% del ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
     border: 1px solid black;
-    margin: 25px 0;
-    font-size: 12px;
+    margin: auto;
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho y alto */
+}
+
+.table2 {
+    width: 100%; /* Ajuste a 100% del ancho del contenedor */
+    border: 1px solid black;
+    margin: 15px 0; /* Reduce el margen para móviles */
+    font-size: 10px; /* Reduce el tamaño de fuente para móviles */
     text-align: center;
     background-color: #fff;
     border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho */
 }
 
 .table2 thead tr {
@@ -32,7 +35,7 @@ h1 {
 
 .table2 th,
 .table2 td {
-    padding: 12px 15px;
+    padding: 8px 10px; /* Reduce el padding para móviles */
     border: 1px solid #ddd;
 }
 
@@ -46,4 +49,25 @@ h1 {
 
 .table2 tbody tr:hover {
     background-color: #f1f1f1;
+}
+
+/* Media query para pantallas de 375px de ancho o menos */
+@media screen and (max-width: 375px) {
+    body {
+        margin: 10px; /* Ajusta el margen */
+    }
+    
+    .seccion2, .table2 {
+        width: 100%; /* Asegura que el ancho sea del 100% */
+        margin: 10px 0; /* Ajusta el margen vertical */
+    }
+
+    .table2 {
+        font-size: 8px; /* Reduce el tamaño de fuente para mejor legibilidad */
+    }
+
+    .table2 th,
+    .table2 td {
+        padding: 6px 8px; /* Reduce el padding para mantener el contenido visible */
+    }
 }

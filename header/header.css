@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    width: 375px;
+    background-color: #dfdde8;
+    color: rgb(7, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+}
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.btn-github {
+    background-color: #fff;
+            color: #819bb5;
+            border: none;
+            padding: 5px 5px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+
+}
+
